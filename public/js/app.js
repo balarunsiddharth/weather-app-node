@@ -21,7 +21,7 @@ weatherForm.addEventListener('submit', (e) => {
           //   console.log(data.loc)
           //   console.log(data.forecast)
           messageOne.textContent = data.loc
-          messageTwo.textContent = 'It ' + data.forecast.temp + ' degree temprature out there, so ' + data.forecast.pP + '% chanse to rain.'
+          messageTwo.textContent = 'It ' + data.forecast.temp + ' degree (F) temprature out there, so ' + data.forecast.pP + '% chanse to rain.'
         }
       })
     })
